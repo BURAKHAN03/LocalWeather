@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu Uygulamam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Şehir ismi giriniz..." spellcheck="false">
+            <button id="searchBtn">Ara</button>
+        </div>
+
+        <div class="weather-info">
+            <img src="https://openweathermap.org/img/wn/01d@2x.png" id="weatherIcon" alt="Hava Durumu">
+            <h1 id="temp">--°C</h1>
+            <h2 id="cityName">Şehir Seçin</h2>
+            
+            <div class="details">
+                <div class="col">
+                    <p id="humidity">--%</p>
+                    <p>Nem</p>
+                </div>
+                <div class="col">
+                    <p id="wind">-- km/h</p>
+                    <p>Rüzgar Hızı</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
